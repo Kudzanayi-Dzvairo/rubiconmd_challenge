@@ -1,0 +1,47 @@
+1) we recieve image with that image we show two elements (buttons)
+ [{econsults: econsultID:1
+              images: [{img: 'url'
+                        checked: null
+                        }
+        } 
+ [{econsults: econsultID:2
+              images: [image1], [image2]
+        } 
+ - button 1 is does not need redaction.
+        
+    - this would post the lack of a need to redact and show success
+- button 2 is redaction needed 
+    - user clicks on button 
+           
+    - new view is represented 
+    - retrieves larger image + two elenments(censor + done)
+    {econsults: econsultID:1
+               : [{imgID: 1,
+                   econsultID: 2,  
+                   ActivelyRedacted: false,
+                  isRedactionCompleted: true
+                  censors:[[x,y,w,h], [x,y,w,h],[x,y,w,h]]
+                  },
+                  
+               : [{imgID: 2,
+                   econsultID: 2,  
+                   ActivelyRedacted: false,
+                  isRedactionCompleted: true
+                  censors:[[x,y,w,h], [x,y,w,h],[x,y,w,h]]
+                  },
+                  
+               : [{imgID: 3,
+                   econsultID: 2,  
+                   ActivelyRedacted: false,
+                  isRedactionCompleted: true,
+                  censors:[[x,y,w,h], [x,y,w,h],[x,y,w,h]]
+                  }
+                ]
+  } 
+        -censor opens a draggable popup of censor
+         - multiple censors can opened  
+        -done button will ask for comfirmation if no censors used 
+        -done button will ask for confirmation if censors too 
+            - yes no popup
+            - return to original screen 
+         

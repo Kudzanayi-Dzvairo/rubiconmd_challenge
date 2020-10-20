@@ -1,0 +1,99 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Lato', sans-serif;
+}
+
+/*-------------- card styles --------------*/
+
+.card-image{
+  width:200px;
+  height:150px;
+  margin:10px
+}
+
+.consult-card{
+  margin-left:80px;
+}
+
+.imageCard{
+  display: flex
+}
+
+
+/*--------------- button styles ------------------*/
+
+.btn-container{
+  display: flex;
+  align-items: center;
+}
+
+
+.no-redact-btn{
+  width: 200px;
+  height: 20px;
+  box-shadow: 2px 6px;
+  margin-left: 30px;
+  cursor: pointer
+}
+
+.redact-btn{
+  width: 125px;
+  height: 20px;
+  box-shadow: 2px 6px;
+  margin-left: 20px;
+  cursor: pointer
+}
+
+.done-btn{
+  width: 100px;
+  height: 40px;
+  margin-top: 80px;
+  margin-left: 850px;
+  box-shadow: 2px 6px;
+  cursor: pointer
+}
+
+
+
+
+
+
+/*-------------------- popup style ----------------*/
+
+
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+  background-color:white;
+}
+
+.popup-image{
+  height: 400px;
+  width: 600px;
+  margin-left:40px;
+  margin-top: 100px;
+}
+
+.plot {
+  /* padding: 0px 15px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.censor{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 120px ;
+  cursor: pointer;
+}
+
+.censor-img{
+  height: 60px;
+  width: 60px;
+}
+
