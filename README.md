@@ -1,6 +1,6 @@
 ## RubiconMD Take Home Challenge
 
-This is frontend app built with React.js 
+This is a frontend app built with React.js 
 
 ## User Stories
 1. User can click on 'No Redact Needed' button and image will be replaced by a green checkmark
